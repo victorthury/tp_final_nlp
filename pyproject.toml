@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tp-final"
+version = "0.1.0"
+description = ""
+authors = ["Victor Thury <victorhauache@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pymupdf = "^1.24.9"
+pytesseract = "^0.3.10"
+pillow = "^10.4.0"
+tqdm = "^4.66.4"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
